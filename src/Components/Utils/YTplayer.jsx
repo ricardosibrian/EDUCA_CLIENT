@@ -1,9 +1,12 @@
 import * as React from 'react';
+import ReactPlayer from 'react-player';
 import Grid from '@mui/material/Grid';
 
 export default function YTplayer(props) {
   return (
-  <h1>hola</h1>
+    <div>
+        <ReactPlayer url={props.url} controls={true}/>
+    </div>
   );
 }
 
