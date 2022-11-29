@@ -89,7 +89,7 @@ export const UserContextProvider = (props) => {
     try {
 
       await axios.post("/auth/signup", { username, email, password });
-      toast.success("Sesión cerrada");
+      toast.success("Cuenta creada");
 
 
     } catch (error) {

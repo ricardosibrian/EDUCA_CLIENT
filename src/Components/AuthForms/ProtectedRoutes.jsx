@@ -7,6 +7,7 @@ import AuthView from '../../views/AuthView/AuthView';
 
 
 
+
 const useAuth = () => {
     const { user } = useContext(UserContext);
     if(user) return true;
